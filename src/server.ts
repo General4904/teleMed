@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 import express, { Request, Response } from "express";
-import patient from "./routes/patientAuthRoutes";
-import doctor from "./routes/doctorAuthRoutes";
+import patient from "./routes/patientAuthRoutes.js";
+import doctor from "./routes/doctorAuthRoutes.js";
 import mongoose from "mongoose";
 
 dotenv.config();

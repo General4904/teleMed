@@ -4,10 +4,10 @@ import {
   getExistingPatient,
   refreshAccessToken,
   logout,
-} from "../controllers/patientAuthController";
-import authenticatePatient from "../middleware/authentication";
-import { getAvailableDoctor } from "../controllers/retrievalAvailableDoctor";
-import { bookAppointment } from "../controllers/appointmentBooking";
+} from "../controllers/patientAuthController.js";
+import authenticatePatient from "../middleware/authentication.js";
+import { getAvailableDoctor } from "../controllers/retrievalAvailableDoctor.js";
+import { bookAppointment } from "../controllers/appointmentBooking.js";
 
 const router = Router();
 

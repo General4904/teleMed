@@ -1,4 +1,4 @@
-import Doctor from "../models/doctor";
+import Doctor from "../models/doctor.js";
 import { Request, Response } from "express";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";

@@ -1,5 +1,5 @@
-import doctorAvailability from "../models/doctorAvailability";
-import Doctor from "../models/doctor";
+import doctorAvailability from "../models/doctorAvailability.js";
+import Doctor from "../models/doctor.js";
 import { Request, Response } from "express";
 
 export const getAvailableDoctor = async (req: Request, res: Response) => {

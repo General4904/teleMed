@@ -4,9 +4,9 @@ import {
   getExistingDoctor,
   refreshAccessToken,
   logout,
-} from "../controllers/doctorAuthController";
-import authenticateDoctor from "../middleware/authentication";
-import { setDoctorAvailability } from "../controllers/setDoctorAvailability";
+} from "../controllers/doctorAuthController.js";
+import authenticateDoctor from "../middleware/authentication.js";
+import { setDoctorAvailability } from "../controllers/setDoctorAvailability.js";
 
 const router = Router();
 

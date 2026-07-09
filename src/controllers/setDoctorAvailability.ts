@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import doctorAvailability from "../models/doctorAvailability";
-import Doctor from "../models/doctor";
+import doctorAvailability from "../models/doctorAvailability.js";
+import Doctor from "../models/doctor.js";
 
 export const setDoctorAvailability = async (req: Request, res: Response) => {
   try {

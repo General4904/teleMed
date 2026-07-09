@@ -1,4 +1,4 @@
-import Patient from "../models/patient";
+import Patient from "../models/patient.js";
 import { Request, Response } from "express";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
