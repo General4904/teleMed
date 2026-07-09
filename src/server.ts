@@ -1,5 +1,5 @@
 import dotenv from "dotenv";
-import express, { Request, Response, urlencoded } from "express";
+import express, { Request, Response } from "express";
 import patient from "./routes/patientAuthRoutes";
 import doctor from "./routes/doctorAuthRoutes";
 import mongoose from "mongoose";

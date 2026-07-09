@@ -1,5 +1,5 @@
 {
-  "name": "patientrecordkeeping",
+  "name": "teleMed",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/General4904/patientRecordKeeping.git"
+    "url": "git+https://github.com/General4904/teleMed.git"
   },
   "keywords": [],
   "author": "",
